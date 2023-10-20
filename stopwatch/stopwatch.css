@@ -1,0 +1,28 @@
+.timerBtn{
+  width: 80px;
+  height: 30px;
+  border: 3px none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255,111,0,1) 0%, rgba(255,0,0,1) 100%); 
+  color: white;
+  cursor: pointer;
+  font-family: consolas, monospace;
+}
+#time-display{
+  font-size: 70px;
+  color: hsl(17, 75%, 47%);
+  font-family: consolas, monospace;
+}
+#timeContainer{
+  text-align: center;
+  border: 3px solid;
+  border-radius: 25px;
+  background-color: #222222;
+  padding: 15px;
+}
+.timerBtn:hover{
+  background: linear-gradient(135deg, rgb(238, 152, 86) 0%, rgb(236, 88, 88) 100%);
+}
+.timerBtn:active{
+  background: linear-gradient(135deg, rgb(230, 182, 145) 0%, rgb(236, 151, 151) 100%);
+}
